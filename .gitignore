@@ -1,5 +1,5 @@
 # Credentials and other sensitive info
-credentials.*
+#credentials.*
 
 # Terraform Lock files
 .terraform.lock.*
