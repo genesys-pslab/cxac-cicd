@@ -1,0 +1,35 @@
+export TF_VAR_SOURCE_CLIENTID="e5fb52db-40b1-4e2a-8f72-9b638fbe88a9"      # See table below for valid values
+export TF_VAR_SOURCE_CLIENTSECRET="2e5c8c1b-f06a-45c7-a914-4474cee7b8e9"  # In this sample file, the clientid/clientsecret
+export TF_VAR_SOURCE_AWSREGION="eu-central-1"                             # fields are randomly-generated GUIDs
+export TF_VAR_DEST_CLIENTID="3e0e3204-2b2e-4677-a6c6-efbf96a8d3ec"
+export TF_VAR_DEST_CLIENTSECRET="be88b4cf-295b-495b-ab24-cc620aceb007"
+export TF_VAR_DEST_AWSREGION="eu-west-1"
+export TF_VAR_CUST_PREFIX="GSYS_"                                         # Used to prefix GC objects with unique identifier
+export TF_VAR_CUST_SUFFIX="_PS"                                           # Used to append GC objects with unique identifier
+export TF_VAR_LOB0="Default"                                              # Following are typical lines of business
+export TF_VAR_LOB1="Support"                                              # Should be tailored to customer business
+export TF_VAR_LOB2="Payments"                                             # E.g., Sales, Support, Claims, Auto, etc...
+export TF_VAR_LOB3="New_Clients"
+
+export ARCHY_SOURCE_REGION="mypurecloud.de"                               # See table below for valid values
+export ARCHY_DEST_REGION="mypurecloud.ie"
+export ARCHY_FLOW_NAME=$TF_VAR_CUST_PREFIX"Hello_World"                   # A simple flow that exists in Org
+export ARCHY_FLOW_TYPE="inboundcall"                                      # Type of flow to demonstrate in Archy export
+
+
+# AWS region	            AWS region name	    Region in Genesys Cloud login	Archy Location        
+# US East (N. Virginia)	    us-east-1	        Americas (US East)	            mypurecloud.com       
+# US East 2 (Ohio)*         us-east-2	        FedRAMP	                        use2.us-gov-pure.cloud
+# US West (Oregon)	        us-west-2	        Americas (US West)	            usw2.pure.cloud       
+# Canada (Central)	        ca-central-1	    Americas (Canada)	            cac1.pure.cloud       
+# South America (São Paulo)	sa-east-1	        Americas (São Paulo)	        sae1.pure.cloud       
+# Europe (Frankfurt)	    eu-central-1	    EMEA (Frankfurt)	            mypurecloud.de        
+# Europe (Ireland)	        eu-west-1	        EMEA (Dublin)	                mypurecloud.ie        
+# Europe (London)	        eu-west-2	        EMEA (London)	                euw2.pure.cloud       
+# Europe (Zurich)	        eu-central-2	    EMEA (Zurich)                   euc2.pure.cloud       
+# Middle East  (UAE)	    me-central-1	    EMEA (UAE)	                    mec1.pure.cloud       
+# Asia Pacific (Mumbai)	    ap-south-1	        Asia Pacific (Mumbai)	        aps1.pure.cloud       
+# Asia Pacific (Seoul)	    ap-northeast-2	    Asia Pacific (Seoul)	        apne2.pure.cloud      
+# Asia Pacific (Sydney)	    ap-southeast-2	    Asia Pacific (Sydney)	        mypurecloud.com.au    
+# Asia Pacific (Tokyo)	    ap-northeast-1	    Asia Pacific (Tokyo)	        mypurecloud.jp        
+# Asia Pacific (Osaka)	    ap-northeast-3      Asia Pacific (Osaka)            apne3.pure.cloud      

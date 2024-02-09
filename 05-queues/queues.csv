@@ -1,0 +1,6 @@
+name,description,acw_wrapup_prompt,acw_timeout_ms
+Q_Default,Queue for Default Calls,MANDATORY_TIMEOUT,60000
+Q_Support,Queue for Customer Support,MANDATORY_TIMEOUT,30000
+Q_Payments,Queue for Payments,MANDATORY_TIMEOUT,30000
+Q_New_Clients,Queue for New Clients,MANDATORY_TIMEOUT,30000
+
