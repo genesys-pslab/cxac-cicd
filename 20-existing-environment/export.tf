@@ -9,3 +9,4 @@ resource "genesyscloud_tf_export" "exporter" {
   include_state_file = true
   export_as_hcl = true
 }
+

@@ -1,5 +1,5 @@
 inboundEmail:
-  name: GSYS_EmailTest
+  name: DNB_EmailTest
   description: Use with demo of CXaC/Archy
   division: Home
   startUpRef: "/inboundEmail/states/state[Initial State_10]"
